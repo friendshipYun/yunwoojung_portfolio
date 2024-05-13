@@ -30,4 +30,8 @@ https://capsule-render.vercel.app/api?type=venom&height=300&color=333&text=I%20a
 
 
 <h3 align="center"> 🛠 Hits 🛠 </h3>
-<a align="center" href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ffriendshipyun.github.io%2Fyunwoojung_portfolio%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+<p align="center">
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ffriendshipyun.github.io%2Fyunwoojung_portfolio%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+</p>
+
+

@@ -1,6 +1,6 @@
 
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:EEFF00,100:a82da8&height=300&section=header&text=Stroke=I%20AM%20WOOJUNG%20YUN&fontSize=48&fontColor=d6ace6" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:EEFF00,100:a82da8&height=300&section=header&text=StrokeI%20AM%20WOOJUNG%20YUN&fontSize=48&fontColor=d6ace6" />
 
 
 <img src="https://img.shields.io/badge/로고이름-색상코드?style=flat&logo=로고이름&logoColor=white"/></a>&nbsp

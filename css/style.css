@@ -1,0 +1,14 @@
+#wrap { width: 100%; max-width: 1920px; margin: auto; overflow: hidden; }
+.container {  width: 80vw; margin: 0 auto; }
+
+
+/* header */
+header .container { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+.logo { font-family: "Bagel Fat One", system-ui; font-size: 36px; }
+nav { display: flex; font-size: 16px; justify-content: space-between; width: 500px; }
+nav > a:hover { font-weight: 800; }
+
+
+/* About */
+#about { background-color: antiquewhite; width: 960px; margin: 100px auto 0; text-align: center; }
+#about .text_box { font-size: 22px; line-height: 1.5em; word-break: keep-all; }

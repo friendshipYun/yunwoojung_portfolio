@@ -4,6 +4,8 @@
 https://capsule-render.vercel.app/api?type=venom&height=300&color=333&text=I%20am%20WOOJUNG%20YUN&fontAlign=50&fontColor=ff0000&strokeWidth=1&stroke=fff
 
 
+<img src="https://capsule-render.vercel.app/api?type=venom&color=333&height=300&section=header&text=20&fontSize=24" />
+
 
 <img src="https://img.shields.io/badge/로고이름-색상코드?style=flat&logo=로고이름&logoColor=white"/></a>&nbsp
 

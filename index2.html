@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 
 <body>
@@ -44,18 +45,166 @@
                             장점 1. 시각디자인을 전공을 통해 개발 스킬은 물론, 디자인 감각까지 갖추었습니다.<br />
                             장점 2. 기획/디자인/개발팀과의 협업 업무를 통해 각 직무와의 원활한 커뮤니케이션이 가능합니다.<br />
                         </p>
+                        <p>
+                            도화지에 그림을 그리는 화가처럼, 화면에 코드로 그림을 그리는 퍼블리셔 윤우정 입니다.<br />
+                            <br />
+
+                            장점 1. 시각디자인을 전공을 통해 개발 스킬은 물론, 디자인 감각까지 갖추었습니다.<br />
+                            장점 2. 기획/디자인/개발팀과의 협업 업무를 통해 각 직무와의 원활한 커뮤니케이션이 가능합니다.<br />
+                        </p>
                     </div>
-                </div>
-            </div>
+                    <div class="detail_profile">
+                        <h2 class="common_title">About</h2>
+                        <div class="detail_profile_inner">
+                            <div class="detail_profile_img">
+                                <img src="images/profile.png" alt="프로필 이미지">
+                            </div>
+                            <div class="detail_profile_text">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>윤우정</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-cake-candles"></i>
+                                        <span>1993.10.25</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>서울시 송파구</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        <a href="mailto:y_wj1025@yahoo.co.kr" title="메일 보내기">y_wj1025@yahoo.co.kr</a>
+                                    </li>
+                                    <li class="sns">
+                                        <a href="javascript:void(0);" onclick="eduPopOpen();" title="학력 및 수료내역 확인하기">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                        </a>
+                                        <a href="https://github.com/friendshipYun" target="_blank" title="github 바로가기">
+                                            <i class="fa-brands fa-github"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/friendship_Yun" target="_blank"
+                                            title="인스타그램 바로가기">
+                                            <i class="fa-brands fa-square-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //sec01 about -->
+
+                <div id="skills" class="sec02">
+                    <h2 class="common_title">Skills</h2>
+                    <ul class="skills_list">
+                        <li>
+                            <p>HTML5</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>CSS3</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>jQuery</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Vue.js</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>React</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Sass</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Photoshop</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Flutter</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Bootstrap</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Github</p>
+                            <div class="skill_bar">
+                                <span>100%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- //sec02 skills-->
+
+                <div id="projects" class="sec03">
+                    <h2 class="common_title">Projects</h2>
+                </div><!-- //sec03 projects -->
+
+                <div id="contact" class="sec04">
+                    <h2 class="common_title">Contact</h2>
+                </div><!-- //sec04 contact -->
+            </div><!-- //container -->
 
         </main>
-    </div>
+
+        <!-- 팝업 -->
+        <div class="edu_popup">
+            <div class="edu_popup_inner">
+                <div class="edu_popup_close" onclick="eduPopClose();">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                </div>
+                <h4>학력</h4>
+                <p>- 방산고등학교 졸업</p>
+                <p>- 동서울대학교 산업디자인과 졸업</p>
+                <p>- 경희사이버대학교 시각미디어디자인과 졸업</p>
+                <hr>
+                <h4>수료 내역</h4>
+                <p>- 웹표준_웹접근성 디지털디자인, 2018.02~2018.04</p>
+                <p>- JavaScript, jQuery 응용 SW엔지니어링, 2018.04~2018.05</p>
+                <p>- 스마트 웹디자인 콘텐츠개발(프론트엔드), 2019.12~2020.05</p>
+            </div>
+        </div>
+    </div><!-- //wrap-->
 
 
     <!-- Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="js/main.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e1d9986c96.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
